@@ -23,6 +23,9 @@ my_array3 = np.array([1, 2, 3])
 # Creating a NumPy array of mixed data type. Notice how it converts into same data type.
 my_array4 = np.array(['a', 'b', 'c', 1, 2, 3])
 
+# Creating an array of float using the 'array' module
+my_array5 = arr.array('f', [1, 2, 3])
+
 # Printing the standard array and its type
 print(my_array1)         # Output: array('i', [1, 2, 3])
 print(type(my_array1))   # Output: <class 'array.array'>
@@ -38,3 +41,7 @@ print(type(my_array3))   # Output: <class 'numpy.ndarray'>
 # Printing the NumPy array and its type
 print(my_array4)         # Output: ['a' 'b' 'c' '1' '2' '3']
 print(type(my_array4))   # Output: <class 'numpy.ndarray'>
+
+# Printing the standard array and its type
+print(my_array5)         # Output: array('f', [1.0, 2.0, 3.0])
+print(type(my_array5))   # Output: <class 'array.array'>
