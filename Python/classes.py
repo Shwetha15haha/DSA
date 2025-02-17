@@ -1,4 +1,4 @@
-# Read this blog for better understanding
+# Read this blog for better understanding : https://medium.com/@mogheshwetha15/never-forget-again-understanding-classes-objects-methods-in-python-part-1-d8db8f22f27f
 
 # Create a book class for displaying bookdetails
 class Book:
