@@ -43,3 +43,32 @@ my_friend_house = House(3, 3, "yellow")
 print(f"My friend;s house has {my_friend_house.bathrooms} bathrooms and is painted {my_friend_house.color}.")
 my_friend_house.open_door() 
 my_friend_house.turn_on_lights()
+
+
+# class House:
+#     def __init__(self, rooms, color):
+#         # The __init__ method sets the initial attributes for each house instance
+#         self.rooms = rooms  # 'self.rooms' is set to the number of rooms for this specific house
+#         self.color = color  # 'self.color' is set to the color for this specific house
+
+#     def describe(self):
+#         # The describe method uses 'self' to refer to the specific house instance's data
+#         print(f'This house has {self.rooms} rooms and is painted {self.color}.')
+
+#     def renovate(self, new_color):
+#         # The renovate method uses 'self' to update the color of the specific house instance
+#         self.color = new_color  # Update the color of the house
+#         print(f'The house has been renovated and is now painted {self.color}.')
+
+# # Building two houses
+# house1 = House(3, "blue")  # __init__ sets house1's rooms to 3 and color to "blue"
+# house2 = House(4, "red")   # __init__ sets house2's rooms to 4 and color to "red"
+
+# # Describing the houses
+# house1.describe()  # Output: This house has 3 rooms and is painted blue.
+# house2.describe()  # Output: This house has 4 rooms and is painted red.
+
+# # Renovating house1
+# house1.renovate("green")   # Updates house1's color to "green"
+# house1.describe()  # Output: The house has been renovated and is now painted green.
+#                   #         This house has 3 rooms and is painted green.
