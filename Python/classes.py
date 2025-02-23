@@ -72,3 +72,26 @@ my_friend_house.turn_on_lights()
 # house1.renovate("green")   # Updates house1's color to "green"
 # house1.describe()  # Output: The house has been renovated and is now painted green.
 #                   #         This house has 3 rooms and is painted green.
+
+
+class Addition:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def sum(self):
+        z = self.x + self.y
+        print(f"Sum of {self.x} and {self.y} is {z}")
+        return z  # Returning the sum so it can be used elsewhere
+
+    def multiply(self, factor):
+        # Calling the sum method and capturing its return value
+        z = self.sum()
+        result = z * factor  # Using the returned sum to perform multiplication
+        print(f"After multiplying by {factor}, the answer is {result}")
+
+# Creating an instance of the Addition class
+calculate1 = Addition(2, 4)
+calculate1.sum()         # Output: Sum of 2 and 4 is 6
+calculate1.multiply(6)   # Output: After multiplying by 6, the answer is 36
+
