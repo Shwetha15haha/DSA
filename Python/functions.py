@@ -47,7 +47,8 @@ def greater_num():
         # Handle the case where input is not a valid number
         print("Please eneter a valid number")
 
-greater_num() 
+greater_num()
+""" 
 # Output :
 # Enter a number: 2
 # Enter another number: 2
@@ -64,4 +65,21 @@ greater_num()
 # Enter a number: 2
 # Enter another number: 3
 # The numbers entered are 2.0 and 3.0
-# The number 3.0 is greater than 2.0
+# The number 3.0 is greater than 2.04
+"""
+
+print()
+
+#3. A function to calculate area of rectangle
+
+# Define a function that takes length and width of a rectangle
+def rectangle_area(length, width):
+    # Calculate area
+    area = length * width
+    # Return the value
+    return area
+
+# Store the calculated value in variable
+area = rectangle_area(length=4,width=5.6)
+# Display message
+print(f"The area of a rectangle is {area}")
